@@ -1,0 +1,38 @@
+On Time (Part 1 of hw2, graded output)
+App
+  should respond to simple request [0 points]
+
+Table header
+  should have link to sort by title [10 points]
+  should have link to sort by release date [10 points]
+
+Table
+  should be sortable by title [20 points]
+  should be sortable by release date [20 points]
+  should highlight title header when sorted [20 points]
+  should highlight release date header when sorted [20 points]
+
+Finished in 0.4106 seconds
+7 examples, 0 failures
+
+On Time (part 3 of hw2, graded output)
+GET /movies
+  basic tests
+    should be successful
+    should have a form with id ratings_form
+    should have #ratings_submit button
+    should have checkboxes
+    should have #movies
+    should have #title_header
+    should have #release_date_header
+  when selecting a movie rating
+    should remember the rating selected [20 points]
+    should allow new ratings to be selected [15 points]
+    should redirect to a RESTful route [15 points]
+  when selecting a sort field
+    should remember the sort order [20 points]
+    should allow a new sort order to be selected [15 points]
+    should redirect to a RESTful route [15 points]
+
+Finished in 2.8 seconds
+13 examples, 0 failures
